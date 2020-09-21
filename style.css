@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    background-color:#00B4D8;
+    color: #ffffff;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+nav a {
+    color: #ffffff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+}
+
+header::after {
+    content: '';
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.75;
+}
+
+header * {
+    position: relative;
+    z-index: 1;
+}
+
+header h1 {
+    font-size: 60px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+header p {
+    font-size: 30px;
+    margin: 0;
+}
+
+footer {
+    background-color: #00B4D8;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+footer .fa-heart {
+    color: red;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 0;
+}
+
+section p {
+    margin-top: 0;
+}
+
+.bg-social {
+    background-color: #90E0EF;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.social-ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-ul a {
+    color: #ffffff;
+    font-size: 25px;
+    margin: 0 20px;
+}
+
+
+img {
+    object-fit: cover;
+    border-radius:50%;
+    width: 150px;
+    height: 150px;
+}
+
+
+.ui.container {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+td.datetime {
+    min-width: 120px;
+    color: rgba(0, 0, 0, .5);
+}
+
+span.middot,
+td.language {
+    color: rgba(0, 0, 0, .5);
+}
+
+div.loading {
+    padding: 20px;
+}
+
+span.stats {
+    display: inline-block;
+    min-width: 100px;
+    color: rgba(0, 0, 0, .5);
+}
+
+
+  
+  
